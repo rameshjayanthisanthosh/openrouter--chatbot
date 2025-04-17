@@ -26,3 +26,7 @@ yarn-error.log*
 server/.env
 
 node_modules
+
+echo ".env" >> .gitignore
+echo "server/.env" >> .gitignore
+echo "build/" >> .gitignore
